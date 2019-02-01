@@ -1,0 +1,22 @@
+# encoding: utf-8
+# vim: ft=ruby expandtab shiftwidth=2 tabstop=2
+
+#
+# General Settings
+#
+box: bento/ubuntu-16.04
+
+#
+# Virtual Machine Settings
+#
+memory: 2048
+cpus: 2
+
+#
+# Network Settings
+#
+hostname: <CHANGE_ME>
+ip: 192.168.33.10
+
+synced_folder: wordpress
+document_root: /var/www/html
